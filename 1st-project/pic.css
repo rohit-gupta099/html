@@ -1,0 +1,51 @@
+h1{
+    color: aqua;
+    font-size:175px;
+    display: inline-block;
+    margin: 10px;
+    padding: 0%;
+    font-weight: 200px;
+    margin-bottom: 0%;
+}
+.profile{
+    border-radius: 50%;
+    width: 500px;
+    height:500px;
+    float: right;
+    margin-top: 60px;
+    margin-right: 80px;
+    border-color: aqua;
+    border-style: dashed;
+}
+.button1{
+    padding:0.5%;
+    margin: 10px;
+    background-color: #E13F7C;
+    color: white;
+    border-radius: 10px;
+    width: 100px; 
+    letter-spacing: normal;
+    border: none;
+}
+.button2{
+    margin:0;
+    padding: 0.5%;
+    background-color: rgb(233, 11, 233);
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    border: none;
+
+}
+p{
+    margin-top: 0%;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #C5C5C5;
+}
+div{
+    float: left;
+    margin: 20px;
+}

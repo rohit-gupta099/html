@@ -1,0 +1,74 @@
+h1{
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+}
+#uper{
+    background-color: white;
+    margin: 0%;
+    padding: 10px;
+}
+body{
+    background-color: antiquewhite;
+    scroll-behavior: smooth;
+}
+.line{
+    border-top: 2px solid #000;
+}
+#down{
+    background-color: white;
+}
+h4{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.background{
+    background-color: rgb(237, 241, 241);
+    padding: 20px;
+}
+.help{
+    background-color: white;
+}
+h2{
+    padding-top: 40px;
+}
+.tb{
+    background-color: white;
+}
+.niche{
+    background-color: white;
+}
+.pwala{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+label{
+    font: 1em sans-serif;ont-weight:600;
+    color:#1e293b;
+    }
+fieldset{
+    border:none;
+    padding:35px;
+    background:#f8fafc;
+    border-radius:22px;
+    margin-top:25px;
+    box-shadow:inset 0 0 0 1px #e2e8f0;
+    }
+ input,
+    select{
+    width:100%;
+    padding:14px 16px;
+    margin-top:8px;
+    margin-bottom:22px;
+    border:1px solid #cbd5e1;
+    border-radius:14px;
+    font-size:15px;
+    background:white;
+    }
+.foot{
+    padding-top: 40px;
+}
+table{
+    margin: 0%;
+    margin-right: 50px;
+    padding-left: 30px;
+}

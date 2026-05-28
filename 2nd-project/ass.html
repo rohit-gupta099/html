@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="ass.css">
+
+<body>
+    <center>
+        <header>
+            <h1>HTML & Web Development Fundamentals</h1>
+            <p>A complete revesion emplate bassed on the provided notes </p>
+            <hr size="3"  color="black">
+        </header>
+    </center>
+    <center>
+        <nav>
+            <a href="#1">Basics</a>
+            <a href="#2">Media</a>
+            <a href="#3">Lists</a>
+            <a href="#4">Tables</a>
+            <a href="#5">Forms</a>
+        </nav>
+    </center>
+    <hr>
+    <main>
+        <h1 id="1"> 1.What is Web Development ?</h1>
+        <p>Web developmentis a processof creating building website and maintain website and web application. it involves
+            front-end,back-end and database management </p>
+        <h1>The silent-server model</h1>
+        <p>The silent (browser) sentls a request.and the server (provider) seintls back a response </p>
+        <H1>2.HTML Elements & formactin</H1>
+        <h3>These paragraph various inline elements</h3>
+        <ul>
+            <li><b>Bold text </b> vs <b>strong inportence</b></li>
+            <li> <I>Italic text</I> for emplnmced text</li>
+            <li><b>Small text:</b> this is small</li>
+            <li><b>Eientific notation:</b>h <sub>2</sub>o (subseript) and e=me <sup>2</sup> (super script)</li>
+            <li>Keyboard formatting:</li>
+        </ul>
+        <h3>This proserves spaces arul tabs.</h3>
+        <h1 id="2">3. Multimedia section</h1>
+    </main>
+    <main>
+        <center>
+            <h3>Emage example</h3>
+            <img src="WhatsApp Image 2026-04-22 at 10.26.43 AM.jpeg" width="300px" alt="">
+            <br>
+            <h3>Video example</h3>
+            <video src="furina-midnight-meadow-genshin-impact-moewalls-com.mp4" width="300px" controls="true"></video>
+            <h3>Audio exampe</h3>
+            <audio src="Dekh Lena Tum Bin 2 320 Kbps.mp3" controls="true"></audio><br>
+            <iframe width="300" height="315" src="https://www.youtube.com/embed/leB_ion59mU?si=jbNObUifsxDFy_T8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </center>
+        <h1 id="3">4. List & strucrued data</h1>
+        <h3>Type of lists</h3>
+        <p>Orderd list (items don't matter)</p>
+        <ul>
+            <li>Google chrome</li>
+            <li>Mozilla firefox</li>
+            <li>Safari</li>
+        </ul>
+        <h3>Orderd lists</h3>
+        <ol type="A">
+            <li>DNS lookup</li>
+            <li>HTTPS request</li>
+            <li>Server responce</li>
+
+        </ol>
+        <h3>Discription list (tearms & definition)</h3>
+        <p>HTTP</p>
+        <P>&nbsp; Hyper text tranfer protocol (not secure)</P>
+        <p>HTTPS</p>
+        <P>&nbsp; Hypertext transfer protocol secure (encrypted)</P>
+        <h1 id="4">5.Browser engines table</h1>
+        <table border="2px" width="80%" cellpadding="10" cellspace="0" align="center">
+            <tr bgcolor="white">
+                <th>Engines</th>
+                <th>Browsers</th>
+                <th>Developed by</th>
+            </tr>
+            <tr>
+                <td>Blink</td>
+                <td>Chrome,edge,opera</td>
+                <td>Google</td>
+            </tr>
+            <tr>
+                <td>Gecko</td>
+                <td>Firefox</td>
+                <td>Mozilla</td>
+            </tr>
+            <tr>
+                <td>Webkji</td>
+                <td>Safari</td>
+                <td>Apple</td>
+            </tr>
+
+        </table>
+        <h1 id="5">6. HTML intractive form</h1>
+        <form>
+            <fieldset>
+                <legend>Student Form</legend>
+                <label for="username"> Full Name</label>
+
+                <input type="text" name="username" id="username" />
+                <br>
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" />
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" />
+                <br>
+                <label><input type="radio" name="gender" value="male">Male</label>
+                <label><input type="radio" name="gender" value="female">Female</label>
+                <br>
+                <p>select hobbies</p>
+                <label><input type="checkbox" name="hobby" value="coding">coding</label>
+                <label><input type="checkbox" name="hobby" value="reading">Reading</label>
+                <br>
+                <label for="date">Date of birth</label>
+                <input tyoe="date" name="date" id="date" />
+                <br>
+                <label for="Favorate color">Favorate Color</label>
+                <input type="color" name="color" id="color" />
+                <br>
+                <p>Qualification</p>
+                <select name="qualifcation" required="true">
+                    <option value="10">10th</option>
+                    <option value="12">12th</option>
+                    <option value="gradution">Gradution</option>
+                </select>
+                <br>
+                <label for="resume">upload your resume</label>
+                <input type="file">
+                <br>
+                <button type="submit">Submit application</button>
+                <button type="reset">Reset</button>
+        </form>
+        </fieldset>
+        </form>
+        <hr>
+
+    </main>
+    <footer>
+        <center>
+            <p>contact for help</p>
+            <a href="#">email us</a>
+            <a href="#">call support</a>
+            <a href="#">WhatsApp</a>
+            <h5>&copy;2026 HTML Revesion Guide</h5>
+        </center>
+    </footer>
+</body>
+
+</html>
